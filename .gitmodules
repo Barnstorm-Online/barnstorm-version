@@ -1,9 +1,9 @@
 [submodule "packages/framework"]
 	path = packages/framework
-	url = https://git.barnstorm.online/barnstorm-online/barnstorm-framework.git
+	url = https://github.com/Barnstorm-Online/barnstorm-framework.git
 [submodule "packages/cli"]
 	path = packages/cli
-	url = https://git.barnstorm.online/barnstorm-online/barnstorm-cli.git
+	url = https://github.com/Barnstorm-Online/barnstorm-cli.git
 [submodule "packages/testing"]
 	path = packages/testing
-	url = https://git.barnstorm.online/barnstorm-online/barnstorm-testing.git
+	url = https://github.com/Barnstorm-Online/barnstorm-testing.git
