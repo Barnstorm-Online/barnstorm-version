@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/cli/barnstorm-cli.iml" filepath="$PROJECT_DIR$/packages/cli/barnstorm-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/cli/packages/runner/barnstorm-cli-runner.iml" filepath="$PROJECT_DIR$/packages/cli/packages/runner/barnstorm-cli-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/framework/barnstorm-framework.iml" filepath="$PROJECT_DIR$/packages/framework/barnstorm-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/framework/packages/base/barnstorm-framework-base.iml" filepath="$PROJECT_DIR$/packages/framework/packages/base/barnstorm-framework-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/testing/barnstorm-testing.iml" filepath="$PROJECT_DIR$/packages/testing/barnstorm-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/testing/packages/base/barnstorm-testing-base.iml" filepath="$PROJECT_DIR$/packages/testing/packages/base/barnstorm-testing-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/barnstorm-version.iml" filepath="$PROJECT_DIR$/.idea/barnstorm-version.iml" />
+    </modules>
+  </component>
+</project>
