@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/packages/framework/barnstorm-framework.iml" filepath="$PROJECT_DIR$/packages/framework/barnstorm-framework.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/framework/packages/base/barnstorm-framework-base.iml" filepath="$PROJECT_DIR$/packages/framework/packages/base/barnstorm-framework-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/testing/barnstorm-testing.iml" filepath="$PROJECT_DIR$/packages/testing/barnstorm-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/testing/barnstorm-testing.iml" filepath="$PROJECT_DIR$/packages/testing/barnstorm-testing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/testing/packages/base/barnstorm-testing-base.iml" filepath="$PROJECT_DIR$/packages/testing/packages/base/barnstorm-testing-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/packages/testing/packages/base/barnstorm-testing-base.iml" filepath="$PROJECT_DIR$/packages/testing/packages/base/barnstorm-testing-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/barnstorm-version.iml" filepath="$PROJECT_DIR$/.idea/barnstorm-version.iml" />
     </modules>
