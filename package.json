@@ -1,0 +1,34 @@
+{
+  "name": "@barnstorm/version",
+  "description": "Monorepo for managing all of the version patching of Barnstorm",
+  "homepage": "https://barnstorm.online",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/barnstorm-online/barnstorm-version.git"
+  },
+  "version": "0.0.0",
+  "contributors": [
+    "Razvan Stoenescu",
+    "nothingismagick <daniel@kinokabaret.com> (https://kinokabaret.com)"
+  ],
+  "author": "Michael Feher <github@phearzero.com>",
+  "scripts": {
+    "test": "echo Hello World",
+    "test:ci": "trevor",
+    "echo": "echo http://$NPM_HOSTNAME",
+    "login:local": "npm login --registry http://$NPM_HOSTNAME",
+    "publish:local": "lerna publish --registry http://\"$NPM_HOSTNAME\" --skip-git"
+  },
+  "devDependencies": {
+    "handlebars": "^4.0.12",
+    "pnpm": "^2.20.1",
+    "trevor": "^2.3.0"
+  },
+  "engines": {
+    "node": ">=8 <9",
+    "pnpm": ">=2.10.0"
+  },
+  "dependencies": {
+    "quasar-cli": "^0.17.20"
+  }
+}

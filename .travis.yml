@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - 9
+  - 8
+before_install:
+  - npm install pnpm -g
+  - git submodule update --init --recursive
+install:
+  - pnpm recursive install
+script:
+  - pnpm recursive test

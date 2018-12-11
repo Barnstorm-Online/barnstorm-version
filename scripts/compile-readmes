@@ -1,0 +1,24 @@
+#!/usr/bin/env node
+
+var fs = require('fs')
+var Handlebars = require('handlebars')
+var source = fs.readFileSync('../docs/templates/README.md.hbs').toString()
+var template = Handlebars.compile(source);
+
+var pkgs = ['cli', 'cli-runner', 'framework', 'framework-base', 'testing', 'testing-base']
+
+var data = {
+    namespace: "Barnstorm",
+    pkg: require('../package.json'),
+    pkgs: pkgs.map((pkg)=>{
+        return require(`../packages/${pkg.replace("-", "/packages/")}/package.json`)
+    }),
+    logo: {
+        url: "https://barnstorm.online/statics/logo.png",
+        width: 150,
+        height: 150
+    }
+}
+var result = template(data);
+// console.log(result);
+fs.writeFileSync("../README.md", result);
