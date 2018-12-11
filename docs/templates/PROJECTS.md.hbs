@@ -1,0 +1,9 @@
+{{#if pkg.projects}}
+{{#each pkgs}}
+
+## [{{this.name}}]({{this.homepage}})
+{{> BADGES badges=this.badges}}
+> {{this.description}} <br> **{{this.name}}**:*v{{this.version}}*
+
+{{/each}}
+{{/if}}

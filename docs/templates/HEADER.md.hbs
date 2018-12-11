@@ -1,0 +1,7 @@
+{{#if pkg.logo}}
+<img src="{{pkg.logo.url}}" data-canonical-src="{{pkg.logo.url}}" width="{{pkg.logo.width}}" height="{{pkg.logo.height}}"/>
+
+{{/if}}
+# {{pkg.namespace}}
+{{> BADGES badges=pkg.badges}}
+> {{pkg.description}} <br> **{{pkg.name}}**:*v{{pkg.version}}*
