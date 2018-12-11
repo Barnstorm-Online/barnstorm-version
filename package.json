@@ -3,8 +3,8 @@
   "description": "Monorepo for managing all of the version patching of Barnstorm",
   "homepage": "https://barnstorm.online",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/barnstorm-online/barnstorm-version.git"
+    "type": "git",
+    "url": "https://github.com/barnstorm-online/barnstorm-version.git"
   },
   "version": "0.0.0",
   "contributors": [
@@ -30,5 +30,16 @@
   },
   "dependencies": {
     "quasar-cli": "^0.17.20"
+  },
+  "badges": {
+    "build": "[![Build Status](https://travis-ci.org/Barnstorm-Online/barnstorm-version.svg?branch=master)](https://travis-ci.org/Barnstorm-Online/barnstorm-version)",
+    "quality": "[![QualityGate](https://sonarcloud.io/api/project_badges/measure?project=Barnstorm-Online_barnstorm-cli&metric=alert_status)](https://sonarcloud.io/api/project_badges/measure?project=Barnstorm-Online_barnstorm-cli&metric=alert_status)"
+  },
+  "namespace": "Barnstorm-Online",
+  "projects": true,
+  "logo": {
+    "url": "https://barnstorm.online/statics/logo.png",
+    "width": 150,
+    "height": 150
   }
 }

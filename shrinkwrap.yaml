@@ -2,7 +2,7 @@ dependencies:
   quasar-cli: 0.17.22
 devDependencies:
   handlebars: 4.0.12
-  pnpm: 2.20.1
+  pnpm: 2.21.1
   trevor: 2.3.0
 packages:
   /@babel/code-frame/7.0.0-beta.54:
@@ -895,6 +895,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-FPzHEqUwA475vhzmlSMVqDn0Zqg=
+  /@types/q/1.5.1:
+    dev: false
+    resolution:
+      integrity: sha512-eqz8c/0kwNi/OEHQfvIuJVLTst3in0e7uTKeuY+WL/zfKn0xVujOTp42bS/vUUokhK5P2BppLd9JXMOMHcgbjA==
   /@vue/component-compiler-utils/2.3.0:
     dependencies:
       consolidate: 0.15.1
@@ -1064,15 +1068,15 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-T/zvzYRfbVojPWahDsE5evJdHb3oJoQfFbsrKM7w5Zcs++Tr257tia3BmMP8XYVjp1S9RZXQMh7gao96BlqZOw==
-  /ajv-errors/1.0.0/ajv@6.6.1:
+  /ajv-errors/1.0.1/ajv@6.6.1:
     dependencies:
       ajv: 6.6.1
     dev: false
-    id: registry.npmjs.org/ajv-errors/1.0.0
+    id: registry.npmjs.org/ajv-errors/1.0.1
     peerDependencies:
       ajv: '>=5.0.0'
     resolution:
-      integrity: sha1-7PAh+hCP0X37Xms4Py3SM+Mf/Fk=
+      integrity: sha512-DCRfO/4nQ+89p/RK43i8Ezd41EqdGIU4ld7nGF8OQ14oc/we5rEntLCUa7+jrn3nn83BosfwZA0wb4pon2o8iQ==
   /ajv-keywords/3.2.0/ajv@6.6.1:
     dependencies:
       ajv: 6.6.1
@@ -1280,7 +1284,7 @@ packages:
   /autoprefixer/9.1.5:
     dependencies:
       browserslist: 4.3.5
-      caniuse-lite: 1.0.30000916
+      caniuse-lite: 1.0.30000918
       normalize-range: 0.1.2
       num2fraction: 1.2.2
       postcss: 7.0.6
@@ -1534,17 +1538,17 @@ packages:
       integrity: sha512-Z942RysHXmJrhqk88FmKBVq/v5tqmSkDz7p54G/MGyjMnCFFnC79XWNbg+Vta8W6Wb2qtSZTSxIGkJrRpCFEiA==
   /browserslist/3.2.8:
     dependencies:
-      caniuse-lite: 1.0.30000916
-      electron-to-chromium: 1.3.88
+      caniuse-lite: 1.0.30000918
+      electron-to-chromium: 1.3.90
     dev: false
     hasBin: true
     resolution:
       integrity: sha512-WHVocJYavUwVgVViC0ORikPHQquXwVh939TaelZ4WDqpWgTX/FsGhl/+P4qBUAGcRvtOgDgC+xftNWWp2RUTAQ==
   /browserslist/4.3.5:
     dependencies:
-      caniuse-lite: 1.0.30000916
-      electron-to-chromium: 1.3.88
-      node-releases: 1.1.0
+      caniuse-lite: 1.0.30000918
+      electron-to-chromium: 1.3.90
+      node-releases: 1.1.1
     dev: false
     hasBin: true
     resolution:
@@ -1691,16 +1695,16 @@ packages:
   /caniuse-api/3.0.0:
     dependencies:
       browserslist: 4.3.5
-      caniuse-lite: 1.0.30000916
+      caniuse-lite: 1.0.30000918
       lodash.memoize: 4.1.2
       lodash.uniq: 4.5.0
     dev: false
     resolution:
       integrity: sha512-bsTwuIg/BZZK/vreVTYYbSWoe2F+71P7K5QGEX+pT250DZbfU1MQ5prOKpPR+LL6uWKK3KMwMCAS74QB3Um1uw==
-  /caniuse-lite/1.0.30000916:
+  /caniuse-lite/1.0.30000918:
     dev: false
     resolution:
-      integrity: sha512-D6J9jloPm2MPkg0PXcODLMQAJKkeixKO9xhqTUMvtd44MtTYMyyDXPQ2Lk9IgBq5FH0frwiPa/N/w8ncQf7kIQ==
+      integrity: sha512-CAZ9QXGViBvhHnmIHhsTPSWFBujDaelKnUj7wwImbyQRxmXynYqKGi3UaZTSz9MoVh+1EVxOS/DFIkrJYgR3aw==
   /capture-stack-trace/1.0.1:
     dev: true
     engines:
@@ -1825,14 +1829,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-4FG+RSG9DL7uEwRUZXZn3SS34DiDPfzP0VOiEwtUWlE+AR2EIg+hSyvrIgUUfhdgR/UkAeW2QHgeP+hWrXs7jQ==
-  /coa/2.0.1:
+  /coa/2.0.2:
     dependencies:
+      '@types/q': 1.5.1
+      chalk: 2.4.1
       q: 1.5.1
     dev: false
     engines:
       node: '>= 4.0'
     resolution:
-      integrity: sha512-5wfTTO8E2/ja4jFSxePXlG5nRu5bBtL/r1HCIpJW/lzT6yDtKl0u0Z4o/Vpz32IpKmBn7HerheEZQgA9N2DarQ==
+      integrity: sha512-q5/jG+YQnSy4nRTV4F7lPepBJZ8qBNJJDBuJdoejDyLXgmL7IEo+Le2JDZudFTFt7mrCqIRaSjws4ygRCTCAXA==
   /code-point-at/1.1.0:
     dev: false
     engines:
@@ -2632,10 +2638,10 @@ packages:
       node: '>=0.10.0'
     resolution:
       integrity: sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==
-  /electron-to-chromium/1.3.88:
+  /electron-to-chromium/1.3.90:
     dev: false
     resolution:
-      integrity: sha512-UPV4NuQMKeUh1S0OWRvwg0PI8ASHN9kBC8yDTk1ROXLC85W5GnhTRu/MZu3Teqx3JjlQYuckuHYXSUSgtb3J+A==
+      integrity: sha512-IjJZKRhFbWSOX1w0sdIXgp4CMRguu6UYcTckyFF/Gjtemsu/25eZ+RXwFlV+UWcIueHyQA1UnRJxocTpH5NdGA==
   /elementtree/0.1.7:
     dependencies:
       sax: 1.1.4
@@ -4780,12 +4786,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-x5fvUQle1YWZArFX9jhPY2HgWug=
-  /node-releases/1.1.0:
+  /node-releases/1.1.1:
     dependencies:
       semver: 5.6.0
     dev: false
     resolution:
-      integrity: sha512-+qV91QMDBvARuPxUEfI/mRF/BY+UAkTIn3pvmvM2iOLIRvv6RNYklFXBgrkky6P1wXUqQW1P3qKlWxxy4JZbfg==
+      integrity: sha512-2UXrBr6gvaebo5TNF84C66qyJJ6r0kxBObgZIDX3D3/mt1ADKiHux3NJPWisq0wxvJJdkjECH+9IIKYViKj71Q==
   /node-status-codes/1.0.0:
     dev: true
     engines:
@@ -5274,13 +5280,13 @@ packages:
       node: '>=6'
     resolution:
       integrity: sha512-/E57AYkoeQ25qkxMj5PBOVgF8Kiu/h7cYS30Z5+R7WaiCCBfLq58ZI/dSeaEKb9WVJV5n/03QwrN3IeWIFllvw==
-  /pnpm/2.20.1:
+  /pnpm/2.21.1:
     dev: true
     engines:
       node: '>=6'
     hasBin: true
     resolution:
-      integrity: sha512-gqYgV+A2Hsfl+dj9B60O9LnwV0ye2TYkazEZ8bAfnHjkyXcMHGd4EvvXMXov5WCfgui/raAQ0xcNZEHWFmfPAg==
+      integrity: sha512-0UEIdUM8VqRHolaBPREYhTEuu/Zfi4qp3Kp0u6ioCtn7Yi33sGFdApEczb/SenmaqtnWD7OUIO74v8Aw9wnYeg==
   /portfinder/1.0.20:
     dependencies:
       async: 1.5.2
@@ -6314,7 +6320,7 @@ packages:
   /schema-utils/1.0.0:
     dependencies:
       ajv: 6.6.1
-      ajv-errors: /ajv-errors/1.0.0/ajv@6.6.1
+      ajv-errors: /ajv-errors/1.0.1/ajv@6.6.1
       ajv-keywords: /ajv-keywords/3.2.0/ajv@6.6.1
     dev: false
     engines:
@@ -6831,7 +6837,7 @@ packages:
       integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==
   /svgo/1.1.1:
     dependencies:
-      coa: 2.0.1
+      coa: 2.0.2
       colors: 1.1.2
       css-select: 2.0.2
       css-select-base-adapter: 0.1.1
@@ -7718,5 +7724,5 @@ shrinkwrapVersion: 3
 specifiers:
   handlebars: ^4.0.12
   pnpm: ^2.20.1
-  quasar-cli: ^0.17.22
+  quasar-cli: ^0.17.20
   trevor: ^2.3.0
